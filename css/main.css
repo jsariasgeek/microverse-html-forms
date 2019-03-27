@@ -88,14 +88,15 @@ button{
     margin-top: 50px;
     color: #8d9096;
 }
-.Turbo{
+.turbo{
     background: red;
     width: 20px
 }
-.Mint{
+
+.mint{
     width: 25px;
 }
-.Quickbooks{
+.quickbooks{
     width: 25px;
 }
 .title img{
@@ -117,7 +118,8 @@ button{
     padding: 1px;
     border-radius: 100px;
 }
-.Form{
+
+.form{
     width: 390px;
     margin: auto;
     padding: 10px;
@@ -191,7 +193,7 @@ input:focus{
     color: #8d9096;
 }
 
-.Form footer{
+.form footer{
     position:relative;
     padding: 10% 0%;
     text-align: center;
@@ -208,7 +210,7 @@ input:focus{
 }
 
 
-.Form footer p{
+.form footer p{
     position: absolute;
     top: 50%;
     right: 10%;
@@ -239,7 +241,7 @@ input:focus{
     text-decoration: underline;
 }
 
-.Links{
+.links{
     display: flex;
     width: 25%;
     justify-content: space-around;
