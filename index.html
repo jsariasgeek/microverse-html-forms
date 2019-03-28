@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Project: HTML Forms</title>
 </head>
 <body>
@@ -13,37 +14,36 @@
             <p>Already have an Intuit account?</p>
             <a href="">I forgot my User ID or Password</a>
         </div>
-        <button><img src="images/lock.png"> <p>Sign in</p></button>
+        <button class="sign-in-button"><i class="fas fa-lock sign-in-icon"></i> Sign In</button>
     </div>
     <div class="title-form">
         <div class="title">
-            <img src="images/intuit.png" alt="">
+            <img src="images/intuit.png" alt="Intuid">
         </div>
         <div class="apps">
             <div class="diferent-apps">
-                <img class="mint" src="images/mint.png" alt="">
+                <img class="mint" src="images/mint.png" alt="Mint Logo">
                     <p>Mint</p>
             </div>
             <div class="diferent-apps">
-                <img class="quickbooks" src="images/quickbooks.png" alt="">
+                <img class="quickbooks" src="images/quickbooks.png" alt="QuickBooks">
                     <p>quickbooks</p>
             </div>
             <div class="diferent-apps">
-                <img class="turbo" src="images/turbo.png" alt="">
+                <img class="turbo" src="images/turbo.png" alt="Turbo">
                     <p>TurboTax</p>
             </div>    
         </div>
     </div>
     <div class="form">
-        <form action="">
+        <form>
             <div class="form-head">
                 <div class="form-head-title">
-                    <h1>One Account.</h1>
-                    <h1>Everything Intuit.</h1>
-                </div>
-                <div class="form-head-links">
-                    <p>Create an acount for all of intuit's products</p>
-                    <p>including Mint. <a href="">Learn More</a></p>
+                    <h1>One Account. <br>
+                        Everything Intuit.
+                    </h1>
+                    <p class="form-head-text">Create an acount for all of intuit's products <br>
+                    including Mint. <a href="">Learn More</a></p>
                 </div>
             </div>
             <div class="form-actions">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="actions">
                     <label for="phone-number">Phone Number</label>
-                    <input type="number" id="phone-number" placeholder="Phone number">
+                    <input type="tel" id="phone-number" placeholder="Phone number">
                 </div>
                 <div class="actions">
                     <label for="password">Password</label>
@@ -64,30 +64,28 @@
                     <input type="password" id="confirm-password" placeholder="Password">
                 </div>
                 
-                <button class="create-account"><img src="images/lock.png"> <p>Create Account</p></button>
+                <button class="create-account"><img src="images/lock.png" alt="Create Account">Create Account</button>
             </div>
             <div class="disclaimer">
                 <i>By clicking Create Account, you agree to our
                     <a href="">Terms of Service</a> and have read and acknowledge our <a href="">Privacy Statement.</a></i>
             </div>
-            
         </form>
-        <footer>
+        <div class="form-footer">
             <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use.</a></p>
-        </footer>
+        </div>
     </div>
+    <footer class="body-footer">
+        <div class="links">
+            <a href="">Legal</a>
+            <a href="">Privacy</a>
+            <a href="">Security</a>
+        </div>
+        <div class="Condition">
+            <p>© 2019 Intuit, Inc. All rights reserved. Intuit, quickbooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        </div>
+    </footer>
 
 </body>
-
-<footer  class="body-footer">
-    <div class="links">
-        <a href="">Legal</a>
-        <a href="">Privacy</a>
-        <a href="">Security</a>
-    </div>
-    <div class="Condition">
-        <p>© 2019 Intuit, Inc. All rights reserved. Intuit, quickbooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-    </div>
-</footer>
 </html>
